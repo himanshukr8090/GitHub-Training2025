@@ -55,4 +55,24 @@
   161  git log
   162  git push --set-upstream mygithub master
   163  history
+  164  vim usedCommand.txt
+  165  ls
+  166  git remote
+  167  git remote show mygithub
+  168  git status
+  169  cat > linux.txt
+  170  git status
+  171  git add .
+  172  git commit -m "3rd commit in local computer"
+  173  git log --oneline
+  174  git status
+  175  cat > linuc.txt
+  176  git add .
+  177  git commit -m "4th commit in local computer"
+  178  git remote show mygithub
+  179  git status
+  180  git push
+  181  git status
+  182  git log --oneline
+  183  history
 
