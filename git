@@ -1,0 +1,49 @@
+   62  git init
+   63  cd .
+   64  git status
+   65  git add hello.c
+   66  git status
+   67  git ls-files
+   68  ls
+   69  git add file1
+   70  git ls-files
+   71  git statsu
+   72  git status
+   73  git commit hello.c
+   74  git config --global himanshukr8090@gmail.com
+   75  git config --global user.email "himanshukr8090@gmail.com"
+   76  git config --global user.name "himanshu singh"
+   77  git commit hello.c -m "first time di=oing commit"
+   78  git config --global --list
+   79  git status
+   80  git show
+   81   cat >> hello.c
+   82  cat hello.c
+   83  git status
+   84  git add hello.c
+   85  git status
+   86  git commit hello.c -m "second change"
+   87  git status
+   88  git show
+   89  git log
+   90  git log --online
+   91  git log --oneline
+   92  git status
+   93  git restore --staged file1
+   94  git status
+   95  cat >> file1
+   96  git status
+   97  git add file1
+   98  git status
+   99  cat >> file1
+  100  git status
+  101  cat >> file1
+  102  git status
+  103  cat >> file1
+  104  git status
+  105  git add file1
+  106  git status
+  107  git commit file1 -m "new file added name file1"
+  108  git status
+  109  git show
+
