@@ -1,0 +1,78 @@
+ ssh-keygen.exe
+  108  cd .ssh/id_ed25519
+  109  cd /c/Users/hp/.ssh/id_ed25519
+  110  cd ..
+  111  cd ..
+  112  cd /c/Users/hp/.ssh/id_ed25519
+  113  cd /.ssh/id_ed25519
+  114  cd .ssh/id_ed25519
+  115  cd .ssh
+  116  ls
+  117  cat id_ed25519.pub
+  118  ssh -T git@github.com
+  119  cd ..
+  120  cd ..
+  121  ls
+  122  cd ..
+  123  cd ..
+  124  ls
+  125  cd ..
+  126  cd c
+  127  cd Users
+  128  cd hp
+  129  cd master_devops
+  130  cd github
+  131  ssh -T git@github.com
+  132  ssh -T git@github.com
+  133  ls
+  134  github_project
+  135  mkdir github_project
+  136  cd github_project
+  137  git init myGithub_repo
+  138  cd myGithub_repo
+  139  cat > linux.txt
+  140  ls
+  141  git status
+  142  git add .
+  143  git status
+  144  git commit -m "First commit in local computer"
+  145  git status
+  146  git push
+  147  git remote
+  148  git remote -v
+  149  git remote add git@github.com:himanshukr8090/GitHub-Training2025.git
+  150  git remote add mygithub git@github.com:himanshukr8090/GitHub-Training2025.git
+  151  git remote
+  152  git remote -v
+  153  git remote show mygithub
+  154  git push
+  155  git log
+  156  cat >> linux.txt
+  157  git status
+  158  git commit -m "Second commit in local computer"
+  159  git add .
+  160  git commit -m "Second commit in local computer"
+  161  git log
+  162  git push --set-upstream mygithub master
+  163  history
+  164  vim usedCommand.txt
+  165  ls
+  166  git remote
+  167  git remote show mygithub
+  168  git status
+  169  cat > linux.txt
+  170  git status
+  171  git add .
+  172  git commit -m "3rd commit in local computer"
+  173  git log --oneline
+  174  git status
+  175  cat > linuc.txt
+  176  git add .
+  177  git commit -m "4th commit in local computer"
+  178  git remote show mygithub
+  179  git status
+  180  git push
+  181  git status
+  182  git log --oneline
+  183  history
+
